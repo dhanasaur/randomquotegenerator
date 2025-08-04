@@ -1,0 +1,60 @@
+body {
+  background: #070d07;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Fira Mono', 'Consolas', monospace;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: #21ff21;
+  font-size: 2.2rem;
+  margin-bottom: 35px;
+  text-shadow: 0 0 8px #21ff21a0, 0 0 3px #0a400a;
+  font-family: 'Fira Mono', 'Consolas', monospace;
+}
+
+#quote {
+  color: #33ff33;
+  background: rgba(10, 30, 10, 0.5);
+  padding: 2rem 2.5rem;
+  border-radius: 14px;
+  font-size: 1.5rem;
+  min-width: 340px;
+  max-width: 600px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 22px #21ff2155;
+  border: 2px solid #21ff21a0;
+  text-align: center;
+  text-shadow: 0 0 3px #21ff21a0;
+  letter-spacing: 0.5px;
+  font-family: 'Fira Mono', 'Consolas', monospace;
+  white-space: pre-line;
+}
+
+.hint {
+  color: #1aff1a88;
+  margin-top: 1rem;
+  font-size: 1rem;
+  text-shadow: 0 0 3px #21ff2122;
+  font-family: 'Fira Mono', 'Consolas', monospace;
+}
+
+kbd {
+  background: #0f5410;
+  color: #fff;
+  padding: 2px 9px;
+  border-radius: 5px;
+  border: 1px solid #10c410;
+  font-size: 1rem;
+  font-family: inherit;
+  box-shadow: 0 0 4px #21ff2180;
+}
