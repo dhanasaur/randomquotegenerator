@@ -8,7 +8,7 @@ async function displayRandomQuote() {
       const response = await fetch("https://dummyjson.com/quotes/random");
       if (!response.ok) throw new Error("API failure");
       data = await response.json();
-      if (data.quote.toLowerCase().includes("love") && data.author.toLowerCase().includes("rumi")) {
+      if (data.quote.toLowerCase().includes("love")) {
         quoteText.textContent = `"${data.quote}"\n\n— ${data.author}`;
         return;
       }
